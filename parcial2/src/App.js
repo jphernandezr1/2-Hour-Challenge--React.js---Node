@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from './paginas/navbar';
 import LandingPage from './paginas/Landing';
 import BookPage from './paginas/BookPage';
+import BookPageInfo from './paginas/BookPageInfo';
 
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<BookPage/>} />
-
+        <Route exact path="/:bookId" element={<BookPageInfo/>} />
         <Route exact path="/login" element={<LoginPage/>} />
+        <Route path="*" element="Not Found" />
 
       </Routes>
     </BrowserRouter>

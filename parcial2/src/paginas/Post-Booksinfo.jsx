@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 function PostBooksInfo(props) {
   return (
-    <Link to={props.link} className="h-fit">
       <div className="card-size">
         <div class="bg-white rounded-lg shadow-lg p-6">
           <div class="flex items-center">
@@ -23,7 +22,6 @@ function PostBooksInfo(props) {
           </div> 
         </div>
       </div>
-    </Link>
   );
  }
  

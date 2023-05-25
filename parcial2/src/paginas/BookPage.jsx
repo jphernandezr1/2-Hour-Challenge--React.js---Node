@@ -27,7 +27,7 @@ function BookPage() {
           <div className="flex flex-wrap justify-center gap-4">
             <Container className="mt-3 flex flex-wrap gap-4">
                 {books.map((book) => (
-                    <PostBooks imagen= {book.image} link={`book/${book.id}`} name={book.name} isbn={book.isbn} />
+                    <PostBooks imagen= {book.image} link={`${book.id}`} name={book.name} isbn={book.isbn} />
                 ))}
             </Container>
           </div>
