@@ -52,7 +52,7 @@ function LoginPage() {
       Iniciar Sesion
       </button>
       {loginStatus && (
-          <p style = {{paddingTop: '20px', justifyContent: 'center', display: 'flex', color: 'red'}}>{loginStatus === "Success" ? navigate(`/home`) : <FormattedMessage id='LoginFailed'/>}</p>
+          <p style = {{paddingTop: '20px', justifyContent: 'center', display: 'flex', color: 'red'}}>{loginStatus === "Success" ? navigate(`/`) : <FormattedMessage id='LoginFailed'/>}</p>
       )}
     </form>
   </div>
