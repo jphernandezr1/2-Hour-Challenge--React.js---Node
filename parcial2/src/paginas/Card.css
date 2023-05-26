@@ -1,35 +1,33 @@
 .card-size {
-    width: 300px;
-    height: 180px;
-    background-color:  white;
-    border-color: black;
+  width: 300px;
+  height: 180px;
+  background-color: white;
+  border-color: black;
 }
 .card-size-1 {
-    width: fit-content;
-    height: fit-content;
-    background-color:  white;
-    border-color: black;
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  border-color: black;
 }
 h1 {
-    color: black;
-    height: fit-content;
+  color: black;
+  height: fit-content;
 }
-h2{
-    color: black;
+h2 {
+  color: black;
 }
-h3{
-    color: black;
-
+h3 {
+  color: black;
 }
 button {
-    width: 200px;
-    height: 70px;
-    align-content: center;
-    justify-content: center;
-    align-self: center;
-
+  width: 200px;
+  height: 70px;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
 }
 textarea {
-    width: fit-content;
-    height: fit-content;
+  width: fit-content;
+  height: fit-content;
 }

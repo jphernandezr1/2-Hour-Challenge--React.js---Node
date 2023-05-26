@@ -1,4 +1,6 @@
 {
+    "Name": "Your Ally BookShop",
+    "Text":"Find even the book that you weren't looking for",
     "authorId":"Author",
     "Publisher": "Publisher",
     "Genre": "Genre",

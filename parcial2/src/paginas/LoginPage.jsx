@@ -29,14 +29,20 @@ function LoginPage() {
     <div className="bg-neutral-600/70 flex justify-center items-center w-screen h-screen">
       <div className="flex w-[750px] h-[550px] bg-white">
         <div className="flex flex-col justify-evenly items-center w-1/2 h-full p-6 bg-[#B7CCC2]">
-          <img src={process.env.PUBLIC_URL + '/books.png'} alt="books" className="h-[250px]"/>
-          <h1 className="text-2xl text-white font-semibold text-center justify-center">Encuentra hasta el libro que no estabas buscando</h1>
+          <img
+            src={process.env.PUBLIC_URL + "/books.png"}
+            alt="books"
+            className="h-[250px]"
+          />
+          <h1 className="text-2xl text-white font-semibold text-center justify-center">
+            <FormattedMessage id="Text" />
+          </h1>
         </div>
         <div className="flex flex-col items-center justify-evenly w-1/2 h-full p-6 text-gray-700">
           <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-white dark:border-white">
             <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
               <h1 class="text-xl font-bold leading-tight justify-center items-center tracking-tight text-black md:text-2xl dark:text-gray-700">
-                Tu Libreria Aliada
+                <FormattedMessage id="Name" />
               </h1>
               <form
                 onSubmit={handleSubmit}
@@ -125,13 +131,12 @@ function LoginPage() {
                   </p>
                 )}
                 <p class="text-sm font-light text-gray-500 dark:text-gray-400">
-                  <FormattedMessage id="DontHave" />
-                  {" "}
+                  <FormattedMessage id="DontHave" />{" "}
                   <a
                     href="/"
                     class="font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
-                  <FormattedMessage id="Register" />
+                    <FormattedMessage id="Register" />
                   </a>
                 </p>
               </form>
