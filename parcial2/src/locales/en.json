@@ -1,0 +1,22 @@
+{
+    "authorId":"Author",
+    "Publisher": "Publisher",
+    "Genre": "Genre",
+    "Year": "Year",
+    "Availability": "Availability Online",
+    "Price": "price",
+    "Summary": "Summary",
+    "LoginFailed": "Incorrect User or Password",
+    "rol":"Role",
+    "booksHead": "Books In Store",
+    "infoHead": "Book Information",
+    "User": "E-Mail",
+    "Password": "Password",
+    "Login": "Log-In",
+    "signout": "Sign-out",
+    "Remember": "Remember me",
+    "Forgot": "Forgot your Password",
+    "DontHave": "Dont you have an account?",
+    "Register": "Register"
+
+}

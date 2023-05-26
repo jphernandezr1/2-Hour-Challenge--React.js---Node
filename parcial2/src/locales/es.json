@@ -1,0 +1,23 @@
+{
+    "authorId":"Autor",
+    "Publisher": "Publicador",
+    "Genre": "Genero",
+    "Year": "Año",
+    "Availability": "Disponibilidad Online",
+    "Price": "Precio",
+    "Summary": "Resumen",
+    "LoginFailed": "Usuario o Contraseña Incorrecto",
+    "rol":"Rol",
+    "booksHead": "Libros En La Tienda",
+    "infoHead": "Informacion del Libro",
+    "User": "Correo Electronico",
+    "Password": "Contraseña",
+    "Login": "Iniciar Sesion",
+    "signout": "Cerrar Sesion",
+    "Remember": "Recuerdame",
+    "Forgot": "Olvidaste tu contraseña",
+    "DontHave": "No tienes cuenta?",
+    "Register": "Registrate"
+
+
+}

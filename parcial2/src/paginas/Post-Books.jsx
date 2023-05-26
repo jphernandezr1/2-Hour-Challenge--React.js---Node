@@ -1,9 +1,8 @@
 import "./Card.css"; // Archivo CSS con las clases de estilo personalizadas.
-import { Link } from "react-router-dom";
 
 function PostBooks(props) {
   return (
-    <Link to={props.link} className="h-fit">
+    <a  className="h-fit" href={props.link}>
       <div className="card-size">
         <div class="bg-white rounded-lg shadow-lg p-6">
           <div class="flex items-center">
@@ -19,7 +18,7 @@ function PostBooks(props) {
           </div> 
         </div>
       </div>
-    </Link>
+    </a>
   );
  }
  

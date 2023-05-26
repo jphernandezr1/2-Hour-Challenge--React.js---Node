@@ -1,13 +1,18 @@
 .card-size {
+    width: 300px;
+    height: 180px;
+    background-color:  white;
+    border-color: black;
+}
+.card-size-1 {
     width: fit-content;
     height: fit-content;
     background-color:  white;
     border-color: black;
-    border-width: medium;
-    border-radius: 2px;
 }
 h1 {
     color: black;
+    height: fit-content;
 }
 h2{
     color: black;
@@ -24,11 +29,7 @@ button {
     align-self: center;
 
 }
-.container-1 {
-  display: flex;
-  justify-content: center;
-  vertical-align:middle;
-  align-items: center;
-  height: 75px; /* Set the desired height for the container */
-  margin: 10px;
+textarea {
+    width: fit-content;
+    height: fit-content;
 }
